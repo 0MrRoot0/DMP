@@ -1,5 +1,5 @@
-# DMP
-Discord Malware persistence
+# DMP - Discord Malware persistence
+Malware persistence in a sneaky Way..
 # For More Info
 https://0mrr00t0.medium.com/malware-persistence-using-discord-1928760532b7
 # ⚠️DISCLAIMER⚠️
