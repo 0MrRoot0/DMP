@@ -1,11 +1,22 @@
-# DMP - Discord Malware persistence
-A Script that turns your favorite chatting app into your nightmare!
+# DMP - Discord Malware Persistence  
+Persistent code execution in Discord through internal file modification.
 
-# How 
-It injects code into discord NodeJS internal modules, Which will be executed when Discord is launched or refreshed manually by CTRL + R.
+## 🚀 Overview  
+DMP exploits Discord's internal Node.js modules to inject persistent code. This code executes whenever Discord is launched or manually refreshed using `CTRL + R`.  
 
-This method works only on the Discord app and was tested only on Windows 10.
-# Feeling lost?
-Consider reading [My Article](https://0mrr00t0.medium.com/malware-persistence-using-discord-1928760532b7) on Meduim!
-# ⚠️DISCLAIMER⚠️
-This  Code has been created purely for the purposes of academic research. It is not intended to be used to attack other systems. Project maintainers are not responsible or liable for misuse of the software. Use responsibly.
+🔍 **Tested Environment:**  
+- **Operating System:** Windows 10  
+- **Application:** Discord (Desktop App)  
+
+## 🛠 How It Works  
+The script modifies Discord’s internal Electron-based files, embedding itself into the application's startup routine. This method ensures that the payload executes whenever Discord starts or reloads.  
+
+> ⚠ **Note:** This persistence method is limited to the Discord application and does not affect the web version.  
+
+## 📖 Want to Learn More?  
+For an in-depth breakdown, check out my article on Medium:  
+🔗 [Malware Persistence Using Discord](https://0mrr00t0.medium.com/malware-persistence-using-discord-1928760532b7)  
+
+## ⚠️ Disclaimer  
+This project is intended for **educational and research purposes only**. It is not designed for unauthorized use on any system.  
+By using this code, you agree that you hold full responsibility for any ethical and legal implications. The maintainers of this project do not endorse or condone illegal activities.  
